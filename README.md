@@ -6,6 +6,7 @@ EMDs.py : Python3.9.8
   
 必要なライブラリは以下の通りです.  
 GenSigFile.py : librosa, numpy, pandas
-System-File>sample>GenSigFile.py
-シグネチャファイルを出力するスクリプト．
+System-File>sample>GenSigFile.py  
+
+シグネチャファイルを出力するスクリプト．  
 wavファイルでの正常な出力を確認している．
