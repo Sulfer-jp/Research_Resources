@@ -5,7 +5,9 @@ GenSigFile.py : Anaconda23.1.0, Python3.9.16
 EMDs.py : Python3.9.8  
   
 必要なライブラリは以下の通りです.  
-GenSigFile.py : librosa, numpy, pandas
+GenSigFile.py : librosa, numpy, pandas, scikit-learn  
+EMDs.py : numpy, pandas, rpy2  
+  
 System-File>sample>GenSigFile.py  
 
 シグネチャファイルを出力するスクリプト．  
