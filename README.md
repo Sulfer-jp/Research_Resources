@@ -12,6 +12,5 @@ EMDs.py : numpy, pandas, rpy2
   
 ### 内容
 System-File>sample>GenSigFile.py  
-
-シグネチャファイルを出力するスクリプト．  
-wavファイルでの正常な出力を確認している．
+シグネチャファイルを作成するスクリプトです.  
+同フォルダ内にwavファイルを入れ，そのファイル名をfilename=''に入力してください．
