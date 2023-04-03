@@ -2,7 +2,7 @@
 This scripts are based on a blog [類似楽曲検索システムを作ろう](https://aidiary.hatenablog.com/entry/20121014/1350211413).  
 It was modified to work in the following environment.  
 However, the environments in which GenSigFile.py and emds.py were confirmed to work correctly are different.  
-It's because librosa and rpy2 were not installed correctly under the same environment in my environment.  
+It's because librosa and rpy2 were not installed correctly under the same environment in my environment.   
 GenSigFile.py : Anaconda23.1.0, Python3.9.16  
 emds.py : Python3.9.8  
   
