@@ -21,3 +21,26 @@ You can rename the signature file by using the last code np.save().
 #### System-File>EMDsystem>emds.py  
 This script loads two signature files and outputs an EMD.
 Put the two signature files created by GenSigFile.py into the EMDsystem folder and rewrite the script part corresponding to the file names. 
+  
+  
+# Research_Resources
+このスクリプトは [類似楽曲検索システムを作ろう](https://aidiary.hatenablog.com/entry/20121014/1350211413)を参考にして作られています．
+以下の環境で動作するように修正しました．なお，librosaとrpy2が同じ環境下でインストールできなかったことから，GenSigFile.pyとemds.pyの動作確認が行われた環境が異なります．
+  
+GenSigFile.py : Anaconda23.1.0, Python3.9.16  
+emds.py : Python3.9.8  
+  
+必要なライブラリは以下の通りです．  
+  
+GenSigFile.py : librosa, numpy, pandas, scikit-learn  
+emds.py : numpy, pandas, rpy2  
+  
+### 内容
+#### System-File>sample>GenSigFile.py  
+このスクリプトでは，シグネチャファイルを作成します．（シグネチャファイルについては前述のブログを参照してください．）
+wavファイルをsampleフォルダにいれ，filename=''にそのwavファイル名を入力してください．
+末尾のnp.save()からシグネチャファイルのファイル名を変更できます．
+  
+#### System-File>EMDsystem>emds.py  
+This script loads two signature files and outputs an EMD.
+Put the two signature files created by GenSigFile.py into the EMDsystem folder and rewrite the script part corresponding to the file names. 
