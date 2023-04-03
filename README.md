@@ -15,7 +15,7 @@ emds.py : numpy, pandas, rpy2
 ### Contents
 System-File>sample>GenSigFile.py  
 This script creates a signature file(please check said blog if you don't know what is "signature file")  
-Put the wav file in the sample folder("sample" folder) and write its filename in filename=''. 
+Put the wav file in the sample folder and write its filename in filename=''. 
 You can rename the signature file by using the last code np.save().   
   
 System files>EMDsystem>emds.py  
