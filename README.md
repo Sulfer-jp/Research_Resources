@@ -1,5 +1,6 @@
 # Research_Resources
 スクリプト作成にあたって，[類似楽曲検索システムを作ろう](https://aidiary.hatenablog.com/entry/20121014/1350211413)というブログを参考にしました.  
+I referenced the blog [類似楽曲検索システムを作ろう](https://aidiary.hatenablog.com/entry/20121014/1350211413) to create this.
 EMDを出力までのスクリプトを以下の環境で動かせるよう改変しています．librosa，rpy2のインストールがうまくいかなかったため，GenSigFile.pyとemds.pyの正常な実行を確認した環境が異なります．  
   
 GenSigFile.py : Anaconda23.1.0, Python3.9.16  
