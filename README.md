@@ -18,6 +18,6 @@ This script creates a signature file(please check said blog if you don't know wh
 Put the wav file in the sample folder and write its filename in filename=''. 
 You can rename the signature file by using the last code np.save().   
   
-#### System files>EMDsystem>emds.py  
+#### System-File>EMDsystem>emds.py  
 This script loads two signature files and outputs an EMD.
 Put the two signature files created by GenSigFile.py into the EMDsystem folder and rewrite the script part corresponding to the file names. 
