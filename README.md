@@ -23,6 +23,9 @@ This script loads two signature files and outputs an EMD.
 Put the two signature files created by GenSigFile.py into the EMDsystem folder and rewrite the script part corresponding to the file names. 
   
   
+  
+  
+  
 # Research_Resources
 このスクリプトは [類似楽曲検索システムを作ろう](https://aidiary.hatenablog.com/entry/20121014/1350211413)を参考にして作られています．
 以下の環境で動作するように修正しました．なお，librosaとrpy2が同じ環境下でインストールできなかったことから，GenSigFile.pyとemds.pyの動作確認が行われた環境が異なります．
