@@ -13,7 +13,9 @@ emds.py : numpy, pandas, rpy2
 ### 内容
 System-File>sample>GenSigFile.py  
 シグネチャファイルを作成するスクリプトです.  
-同フォルダ内にwavファイルを入れ，そのファイル名をfilename=''に入力してください.  
+sampleフォルダ内にwavファイルを入れ，そのファイル名をfilename=''に入力してください.  
 末尾のコードnp.save()内の名前を変更して，シグネチャファイルの名前を変更できます．  
   
-System-File>EMDsystem>emds.py
+System-File>EMDsystem>emds.py  
+2つのシグネチャファイルをロードし，EMDを出力するスクリプトです．
+GenSigFile.pyで作成したシグネチャファイルを2つEMDsystemフォルダ内へ入れ，ファイル名に対応するスクリプト部を書き換えてください．  
